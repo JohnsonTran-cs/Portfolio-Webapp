@@ -1,6 +1,9 @@
 /* GENERAL SECTION */
 .section {
   padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-title {
@@ -8,6 +11,11 @@
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.section-desc {
+  max-width: 200ch;
+
 }
 /* PROFILE */
 .profile {
