@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: black;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul { display: flex; gap: 20px; list-style: none; cursor: pointer; }
+
+.Profile {
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.blue-text { color: #00bfff; }
+
+.section { padding: 120px 20px; text-align: center; }
+
+section {
+  padding-top: 80px;
+}
+
+.skills-grid, .project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-card {
+  overflow: hidden;
+}
