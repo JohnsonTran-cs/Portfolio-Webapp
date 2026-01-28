@@ -5,7 +5,7 @@ export default function Navbar({ sections }) {
 
   return (
     <nav className="navbar">
-      <h2 className="logo">MyPortfolio</h2>
+      <h2 className="logo">Johnson Tran</h2>
       <ul>
         <li onClick={() => scrollTo(sections.about)}>About</li>
         <li onClick={() => scrollTo(sections.projects)}>Projects</li>
